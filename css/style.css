@@ -35,7 +35,9 @@
 }
 
 body {
+  background-image: url('/images/pattern-background-desktop.svg');
   background-color: var(--pale-blue);
+  background-repeat: repeat-x;
   font-family: "Red Hat Display", sans-serif;
   min-height: 100vh;
   display: flex;
@@ -44,25 +46,8 @@ body {
   align-items: center;
 }
 
-.container::before {
-    content: "";
-    background: url("/images/pattern-background-desktop.svg") center center/contain;
-    position: absolute;
-    width: 100%;
-    height: 26rem;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
 /* Container */
 .container {
-  display: flex;
-  justify-content: center;
-}
-
-/* Summary Box */
-.summary-box {
   display: flex;
   justify-content: center;
 }
@@ -72,7 +57,8 @@ body {
   box-shadow: -8px 6px 10px var(--desaturated-blue);
   background-color: var(--white-color);
   border-radius: 20px;
-  width: 58%;
+  width: 90%;
+  max-width: 434px;
 }
 
 .summary-banner {
@@ -118,15 +104,15 @@ body {
 }
 
 .plan-banner {
-    margin-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .plan-description {
-    margin-right: 3.2rem;
+  margin-right: 3.2rem;
 }
 
 .plan-description h3 {
-    font-size: 0.99rem;
+  font-size: 0.99rem;
 }
 
 .plan-description span {
@@ -149,7 +135,7 @@ body {
   color: var(--white-color);
   cursor: pointer;
   background-color: var(--bright-blue);
-  box-shadow: 4px 2px 8px var(--bright-blue);
+  box-shadow: 5px 5px 12px 5px rgb(0 0 255 / 15%);
   border: none;
   border-radius: 10px;
   letter-spacing: 0.2rem;
@@ -172,19 +158,21 @@ body {
   display: flex;
   position: absolute;
   right: 10px;
-  bottom: 10px
+  bottom: 10px;
 }
 
 .footer p {
   padding: 0 18px;
 }
 
-.frontend-site, .coded-by{
+.frontend-site,
+.coded-by {
   color: var(--desaturated-blue);
   font-size: 1.2rem;
 }
 
-.website-link, .profile-link {
+.website-link,
+.profile-link {
   color: var(--bright-blue);
 }
 
@@ -204,25 +192,15 @@ body {
 
 /* Mobile Design */
 @media (max-width: 375px) {
-
-  .container::before {
-    content: "";
-    background: url("/images/pattern-background-mobile.svg");
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 100%;
-    height: 13rem;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-
-  .container {
+  body {
+    background-image: url("/images/pattern-background-mobile.svg");
+    background-color: var(--pale-blue);
+    background-repeat: repeat-x;
     padding: 0 6%;
   }
 
   .summary-item {
-    width: 100%;
+    width: 94%;
   }
 
   .summary-text {
@@ -230,7 +208,7 @@ body {
   }
 
   .summary-plan {
-    width: 84%;
+    width: 92%;
   }
 
   .plan-description {
@@ -244,5 +222,4 @@ body {
   .footer {
     padding: 0 4%;
   }
-
 }
