@@ -207,7 +207,7 @@ body {
 
   .container::before {
     content: "";
-    background: url("/images/pattern-background-mobile.svg");
+    background: url("Order-Summary-Component/images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 100%;
