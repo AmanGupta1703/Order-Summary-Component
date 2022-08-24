@@ -35,7 +35,7 @@
 }
 
 body {
-  background-image: url('/images/pattern-background-desktop.svg');
+  background-image: url('images/pattern-background-desktop.svg');
   background-color: var(--pale-blue);
   background-repeat: repeat-x;
   font-family: "Red Hat Display", sans-serif;
@@ -193,7 +193,7 @@ body {
 /* Mobile Design */
 @media (max-width: 375px) {
   body {
-    background-image: url("/images/pattern-background-mobile.svg");
+    background-image: url("images/pattern-background-mobile.svg");
     background-color: var(--pale-blue);
     background-repeat: repeat-x;
     padding: 0 6%;
