@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/AmanGupta1703/Order-Summary-Component)
+- Live Site URL: [Live Site](https://amangupta1703.github.io/Order-Summary-Component/)
 
 ### Built with
 
@@ -100,7 +100,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Qrder-Summary-Component](https://github.com/AmanGupta1703/Order-Summary-Component)
 - Frontend Mentor - [@AmanGupta1703](https://www.frontendmentor.io/profile/AmanGupta1703)
 
 ## Acknowledgments
